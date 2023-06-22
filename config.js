@@ -222,7 +222,7 @@ const CONFIG = {
 				},
 				{
 					name: 'Android Messages',
-					link: 'https://messages.google.com',
+					link: 'https://messages.google.com/web/conversations',
 				},
 			],
 		},
