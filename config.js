@@ -154,7 +154,13 @@ const CONFIG = {
 					name: 'Amazon Prime Video',
 					link: 'https://www.amazon.com/Amazon-Video/b/?ie=UTF8&node=2858778011&ref_=nav_cs_prime_video',
 				},
-				{
+			],
+		},
+		{
+			icon: 'clapperboard',
+			id: '2',
+			links: [
+								{
 					name: 'Peacock TV',
 					link: 'https://peacocktv.com',
 				},
@@ -169,44 +175,6 @@ const CONFIG = {
 				{
 					name: 'Twitch',
 					link: 'https://twitch.tv',
-				},
-			],
-		},
-		{
-			icon: 'receipt',
-			id: '2',
-			links: [
-				{
-					name: 'Rent',
-					link: 'https://clickpay.com',
-				},
-				{
-					name: 'T-Mobile',
-					link: 'https://account.tmobile.com',
-				},
-				{
-					name: 'Amazon',
-					link: 'https://amazon.com',
-				},
-				{
-					name: 'Chewy',
-					link: 'https://chewy.com',
-				},
-				{
-					name: 'Best Buy',
-					link: 'https://bestbuy.com',
-				},
-				{
-					name: 'Slickdeals',
-					link: 'https://slickdeals.net',
-				},
-				{
-					name: 'Route',
-					link: 'https://route.com',
-				},
-				{
-					name: 'Instacart',
-					link: 'https://instacart.com',
 				},
 			],
 		},
@@ -234,6 +202,12 @@ const CONFIG = {
 					name: 'Reddit',
 					link: 'https://reddit.com',
 				},
+			],
+		},
+		{
+			icon: 'mail',
+			id: '2',
+			links: [
 				{
 					name: 'Gmail',
 					link: 'https://gmail.com',
@@ -247,34 +221,8 @@ const CONFIG = {
 					link: 'https://posteo.de/webmail/',
 				},
 				{
-					name: 'Discord',
-					link: 'https://discord.com/app',
-				},
-				{
 					name: 'Android Messages',
 					link: 'https://messages.google.com',
-				},
-			],
-		},
-		{
-			icon: 'home',
-			id: '2',
-			links: [
-				{
-					name: 'Google Home',
-					link: 'https://home.google.com',
-				},
-				{
-					name: 'Google Nest',
-					link: 'https://home.nest.com',
-				},
-				{
-					name: 'Arlo',
-					link: 'https://my.arlo.com',
-				},
-				{
-					name: 'Bitwarden',
-					link: 'https://vault.bitwarden.com',
 				},
 			],
 		},
