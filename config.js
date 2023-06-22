@@ -66,26 +66,26 @@ const CONFIG = {
 		{
 			id: '3',
 			name: 'Netflix',
-			icon: 'netflix',
+			icon: 'clapperboard',
 			link: 'https://netflix.com',
 		},
 		{
 			id: '4',
 			name: 'Amazon',
-			icon: 'amazon',
+			icon: 'circle-dollar-sign',
 			link: 'https://amazon.com',
 		},
 		{
 			id: '5',
-			name: 'Reddit',
-			icon: 'glasses',
-			link: 'https://reddit.com',
+			name: 'Spotify',
+			icon: 'music',
+			link: 'https://spotify.com',
 		},
 		{
 			id: '6',
-			name: 'Odysee',
-			icon: 'youtube',
-			link: 'https://odysee.com/',
+			name: 'Discord',
+			icon: 'bot',
+			link: 'https://discord.com/app',
 		},
 	],
 
@@ -135,46 +135,46 @@ const CONFIG = {
 	// First Links Container
 	firstlistsContainer: [
 		{
-			icon: 'music',
+			icon: 'film',
 			id: '1',
 			links: [
 				{
-					name: 'Inspirational',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Amazon Prime Video',
+					link: 'https://www.amazon.com/Amazon-Video/b/?ie=UTF8&node=2858778011&ref_=nav_cs_prime_video',
 				},
 				{
-					name: 'Classic',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Peacock TV',
+					link: 'https://peacocktv.com',
 				},
 				{
-					name: 'Oldies',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Paramount+',
+					link: 'https://paramountplus.com',
 				},
 				{
-					name: 'Rock',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Twitch',
+					link: 'https://twitch.tv',
 				},
 			],
 		},
 		{
-			icon: 'coffee',
+			icon: 'receipt',
 			id: '2',
 			links: [
 				{
-					name: 'Linkedin',
-					link: 'https://www.linkedin.com',
+					name: 'Rent',
+					link: 'https://clickpay.com',
 				},
 				{
-					name: 'Dribbble',
-					link: 'https://www.dribbble.com',
+					name: 'T-Mobile',
+					link: 'https://account.tmobile.com',
 				},
 				{
-					name: 'Trello',
-					link: 'https://www.trello.com',
+					name: 'Chewy',
+					link: 'https://chewy.com',
 				},
 				{
-					name: 'Slack',
-					link: 'https://www.slack.com',
+					name: 'Slickdeals',
+					link: 'https://slickdeals.net',
 				},
 			],
 		},
