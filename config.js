@@ -23,7 +23,7 @@ const CONFIG = {
 	greetingNight: 'Go to Sleep!',
 
 	// Layout
-	bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
+	bentoLayout: 'lists', // 'bento', 'lists', 'buttons'
 
 	// Weather
 	weatherKey: '1ff486e746b0af28ef8e2ad6513f1ad4', // Write here your API Key
@@ -139,6 +139,18 @@ const CONFIG = {
 			id: '1',
 			links: [
 				{
+					name: 'Youtube',
+					link: 'https://youtube.com',
+				},
+				{
+					name: 'Youtube TV',
+					link: 'https://tv.youtube.com',
+				},
+				{
+					name: 'Netflix',
+					link: 'https://netflix.com',
+				},
+				{
 					name: 'Amazon Prime Video',
 					link: 'https://www.amazon.com/Amazon-Video/b/?ie=UTF8&node=2858778011&ref_=nav_cs_prime_video',
 				},
@@ -149,6 +161,10 @@ const CONFIG = {
 				{
 					name: 'Paramount+',
 					link: 'https://paramountplus.com',
+				},
+				{
+					name: 'Spotify',
+					link: 'https://open.spotify.com',
 				},
 				{
 					name: 'Twitch',
@@ -169,12 +185,28 @@ const CONFIG = {
 					link: 'https://account.tmobile.com',
 				},
 				{
+					name: 'Amazon',
+					link: 'https://amazon.com',
+				},
+				{
 					name: 'Chewy',
 					link: 'https://chewy.com',
 				},
 				{
+					name: 'Best Buy',
+					link: 'https://bestbuy.com',
+				},
+				{
 					name: 'Slickdeals',
 					link: 'https://slickdeals.net',
+				},
+				{
+					name: 'Route',
+					link: 'https://route.com',
+				},
+				{
+					name: 'Instacart',
+					link: 'https://instacart.com',
 				},
 			],
 		},
@@ -183,46 +215,66 @@ const CONFIG = {
 	// Second Links Container
 	secondListsContainer: [
 		{
-			icon: 'binary',
+			icon: 'users',
 			id: '1',
 			links: [
 				{
-					name: 'Spotify',
-					link: 'https://www.spotify.com',
+					name: 'Lemmy',
+					link: 'https://lemmy.world',
+				},
+				{
+					name: 'Kbin',
+					link: 'https://kbin.social',
+				},
+				{
+					name: 'Beehaw',
+					link: 'https://beehaw.org',
 				},
 				{
 					name: 'Reddit',
-					link: 'https://www.reddit.com',
+					link: 'https://reddit.com',
 				},
 				{
-					name: 'Hashnode',
-					link: 'https://www.hashnode.com',
+					name: 'Gmail',
+					link: 'https://gmail.com',
 				},
 				{
-					name: 'Pocket',
-					link: 'https://www.pocket.com',
+					name: 'Outlook',
+					link: 'https://outlook.com',
+				},
+				{
+					name: 'Posteo',
+					link: 'https://posteo.de/webmail/',
+				},
+				{
+					name: 'Discord',
+					link: 'https://discord.com/app',
+				},
+				{
+					name: 'Android Messages',
+					link: 'https://messages.google.com',
 				},
 			],
 		},
 		{
-			icon: 'github',
+			icon: 'home',
 			id: '2',
 			links: [
 				{
-					name: 'Front',
-					link: 'https://www.reddit.com/r/Frontend/',
+					name: 'Google Home',
+					link: 'https://home.google.com',
 				},
 				{
-					name: 'Rust',
-					link: 'https://www.reddit.com/r/rust/',
+					name: 'Google Nest',
+					link: 'https://home.nest.com',
 				},
 				{
-					name: 'Go',
-					link: 'https://www.reddit.com/r/golang/',
+					name: 'Arlo',
+					link: 'https://my.arlo.com',
 				},
 				{
-					name: 'Repos',
-					link: 'https://github.com/migueravila',
+					name: 'Bitwarden',
+					link: 'https://vault.bitwarden.com',
 				},
 			],
 		},
